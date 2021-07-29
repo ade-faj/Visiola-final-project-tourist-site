@@ -1,0 +1,81 @@
+.KUN-color {
+    color: #FA352E;
+}
+
+
+/*--------------------------- hero section-------------------------- */
+
+.hero-image {
+    height: 70vh;
+}
+
+
+/*--------------------------- features section-------------------------- */
+
+.fa-star {
+    color: #F4E409;
+}
+
+
+/*--------------------------- Gallery section-------------------------- */
+
+#Gallery {
+    background: #FFF6EF;
+    height: 50vh;
+}
+
+
+/*--------------------------- Gallery section-------------------------- */
+
+#Gallery {
+    background: #FFF6EF;
+    height: 50vh;
+}
+
+
+/*--------------------------- Delicacies section-------------------------- */
+
+#delicacies {
+    background-image: url("../images/food-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 56vh;
+    margin-top: 3em;
+    border-radius: 5px;
+}
+
+
+/*--------------------------- accomodation section-------------------------- */
+
+#accomodation {
+    background: #FFE6D2;
+    height: 60vh;
+}
+
+
+/*--------------------------- reviews section-------------------------- */
+
+#reviews {
+    background-image: url("../images/reviews-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    border-radius: 5px;
+}
+
+
+/*--------------------------- contact section-------------------------- */
+
+.map {
+    background-image: url("../images/map-kenya.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+}
+
+.contact-icons {
+    padding-right: 12px;
+}
