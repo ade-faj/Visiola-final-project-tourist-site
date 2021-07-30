@@ -1,5 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Abhaya Libre', serif;
+    font-size: 16px;
+}
+
 .KUN-color {
     color: #FA352E;
+}
+
+h2 {
+    font-weight: 800;
 }
 
 
@@ -50,7 +66,7 @@
 
 #accomodation {
     background: #FFE6D2;
-    height: 60vh;
+    height: 70vh;
 }
 
 
@@ -58,11 +74,16 @@
 
 #reviews {
     background-image: url("../images/reviews-bg.png");
-    background-position: center;
+    background-position: sticky;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 70vh;
+    height: 76vh;
     border-radius: 5px;
+}
+
+#team img {
+    margin-top: -100px;
+    margin-left: 70px;
 }
 
 
