@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Abhaya Libre', serif;
+    font-size: 16px;
+}
+
+.KUN-color {
+    color: #FA352E;
+}
+
+h2 {
+    font-weight: 800;
+}
+
+
+/*--------------------------- hero section-------------------------- */
+
+.hero-image {
+    height: 70vh;
+}
+
+
+/*--------------------------- features section-------------------------- */
+
+.fa-star {
+    color: #F4E409;
+}
+
+
+/*--------------------------- Gallery section-------------------------- */
+
+#Gallery {
+    background: #FFF6EF;
+    height: 50vh;
+}
+
+
+/*--------------------------- Gallery section-------------------------- */
+
+#Gallery {
+    background: #FFF6EF;
+    height: 50vh;
+}
+
+
+/*--------------------------- Delicacies section-------------------------- */
+
+#delicacies {
+    background-image: url("../images/food-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 56vh;
+    margin-top: 3em;
+    border-radius: 5px;
+}
+
+
+/*--------------------------- accomodation section-------------------------- */
+
+#accomodation {
+    background: #FFE6D2;
+    height: 70vh;
+}
+
+
+/*--------------------------- reviews section-------------------------- */
+
+#reviews {
+    background-image: url("../images/reviews-bg.png");
+    background-position: sticky;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 76vh;
+    border-radius: 5px;
+}
+
+#team img {
+    margin-top: -100px;
+    margin-left: 70px;
+}
+
+
+/*--------------------------- contact section-------------------------- */
+
+.map {
+    background-image: url("../images/map-kenya.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+}
+
+.contact-icons {
+    padding-right: 12px;
+}
