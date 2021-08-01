@@ -1,4 +1,87 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Abhaya Libre', serif;
+    font-size: 16px;
+}
+
+h2 {
+    font-weight: 800;
+}
+
+.hero-image {
+    height: 70vh;
+}
+
+.fa-star {
+    color: #F4E409;
+}
+
+.card img {
+    width: 345px;
+    height: 200px;
+}
+
+.card1 img {
+    width: 250px;
+    height: 150px;
+}
+
+.card2 img {
+    width: 250px;
+    height: 200px;
+}
+
+#delicacies {
+    /* background-image: url("./image-nig/food-bg.png"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 3em;
+    border-radius: 5px;
+}
+
+#accomodation {
+    background: #FFE6D2;
+}
+
+#features {
+    background: #FFE6D2;
+}
+
+#reviews {
+    background-image: url("./image-nig/reviews-bg.png");
+    background-position: sticky;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+#team img {
+    margin-top: -100px;
+    margin-left: 70px;
+}
+
+.map {
+    background-image: url("./image-nig/map-kenya.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+}
+
+.contact-icons {
+    padding-right: 12px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
+
 *{
     padding: 0; 
     margin: 0;
@@ -225,5 +308,6 @@ body {
     width: 100%;
     mim-height: 500px ;
 }
+
 
 
