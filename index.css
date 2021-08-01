@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
 * {
     padding: 0;
@@ -79,17 +79,23 @@ h2 {
 .contact-icons {
     padding-right: 12px;
 }
-=======
+
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
+
 *{
     padding: 0; 
     margin: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
+body {
+    font-family: 'Abhaya Libre', serif;
+    font-size: 18px;
+}
+
 
 .navbar {
-    background-color:#FFE6D2 ;
+    background-color:white;
 }
 .navbar-{
    
@@ -108,7 +114,10 @@ h2 {
     position: relative;
     padding:5rem 10rem;
     text-align: center;
+   
+    
   }
+
   
 .main .video video{
     position: absolute;
@@ -120,50 +129,21 @@ h2 {
     z-index: -1;
      border-bottom: 1px solid white;
     border-bottom-left-radius: 10em;
+    overflow: hidden;
+    z-index: -100;
+   filter: brightness(80%);
   }
 .main .content{
     margin-top: 7rem;
   }
   
 .main .content h1{
-    font-size: 70px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-left: 30px;
+    font-size: 85px;
     color:#fff;
     
   }
   
-/* header{
-    background: url(./images/sangga-rima-roman-selia-YZ7ox9_qJsY-unsplash.jpg);
-    background-position: center;
-    background-size: cover;
-    min-width: 100%;
-    min-height: 500px;
-    position: absolute;
-    left: 0;
-    border-bottom: 1px solid white;
-    border-bottom-left-radius: 10em;
-}
-.container{
-    position: absolute;
-    top: 10em;
-    left: 8em;
-    text-align: center;
-    color: whitesmoke;
-}
-.container h1{
-    font-size: 50px;
-    font-family: sans-serif;
-    
-} */
-/* {
-    color: #FA352E;
-    border: 2px solid #FA352E;
-    border-radius: 5px;
-    margin: auto 20px;
-   
-    padding: 7px;
-} */
+
 .btn_{
    width: 100px; 
    padding: 2px;
@@ -184,12 +164,24 @@ h2 {
     width: 100px; 
     padding: 6px;
     text-align: center;
-    border: 1px solid #FA352E;
-     border: 2px solid #FA352E;
+     border: 2px solid white;
      border-radius: 5px;
-     color:#FA352E ;
+     color:#FA352E;
+     background-color: white;
      margin: auto 10px;
      text-decoration: none;
+    font-weight: 800;
+}
+.register_{
+    width: 100px; 
+    padding: 6px;
+    text-align: center;
+     border: 2px solid #FA352E ;
+     border-radius: 5px;
+     color:#FA352E;
+     margin: auto 10px;
+     text-decoration: none;
+    font-weight: 800;
 }
 .about{
    position: relative;
@@ -229,7 +221,7 @@ h2 {
 .blog-container{
     width: 100%;
     height: 100%;
-    background-color: #FFF6EF;
+    background-color:#fcf3ec;
    /* margin-bottom: 20px; */   
    padding: 50px;
 
@@ -262,7 +254,7 @@ h2 {
     text-align: justify;
 }
 .team-img img{
-    width: 100%;
+    width: 300px;
     height: 300px;
     
      border: 1px solid white; 
@@ -273,7 +265,7 @@ h2 {
     width: 100%;
     height: 100%;
     padding: 5em;
-    background-color: #FFF6EF;
+    background-color:#FFF6EF ;
     text-align: center;
     overflow: hidden;
 }
@@ -309,5 +301,13 @@ h2 {
     opacity: 0.7;
 }
 
+.contact-icons {
+    padding-right: 12px;
+}
+.contact{
+    width: 100%;
+    mim-height: 500px ;
+}
 
->>>>>>> e1c9c176e2f02eb5671f098979c690a2a3a6c274
+
+
