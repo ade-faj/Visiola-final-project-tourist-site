@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
 * {
     padding: 0;
@@ -78,3 +79,235 @@ h2 {
 .contact-icons {
     padding-right: 12px;
 }
+=======
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.navbar {
+    background-color:#FFE6D2 ;
+}
+.navbar-{
+   
+}
+.navbar-nav li a{
+    margin: auto 50px;
+    color: black;
+    font-weight: 600;
+
+}
+.main{
+    min-height:580px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    padding:5rem 10rem;
+    text-align: center;
+  }
+  
+.main .video video{
+    position: absolute;
+    top:0; 
+    left:0;
+    height:100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+     border-bottom: 1px solid white;
+    border-bottom-left-radius: 10em;
+  }
+.main .content{
+    margin-top: 7rem;
+  }
+  
+.main .content h1{
+    font-size: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 30px;
+    color:#fff;
+    
+  }
+  
+/* header{
+    background: url(./images/sangga-rima-roman-selia-YZ7ox9_qJsY-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 500px;
+    position: absolute;
+    left: 0;
+    border-bottom: 1px solid white;
+    border-bottom-left-radius: 10em;
+}
+.container{
+    position: absolute;
+    top: 10em;
+    left: 8em;
+    text-align: center;
+    color: whitesmoke;
+}
+.container h1{
+    font-size: 50px;
+    font-family: sans-serif;
+    
+} */
+/* {
+    color: #FA352E;
+    border: 2px solid #FA352E;
+    border-radius: 5px;
+    margin: auto 20px;
+   
+    padding: 7px;
+} */
+.btn_{
+   width: 100px; 
+   padding: 2px;
+   text-align: center;
+   border: 1px solid #FA352E;
+   background-color:#FA352E ;
+    border: 2px solid #FA352E;
+    border-radius: 5px;
+    color: #fff;
+    margin: auto 10px;
+    
+   
+}.btn_ a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.register{
+    width: 100px; 
+    padding: 6px;
+    text-align: center;
+    border: 1px solid #FA352E;
+     border: 2px solid #FA352E;
+     border-radius: 5px;
+     color:#FA352E ;
+     margin: auto 10px;
+     text-decoration: none;
+}
+.about{
+   position: relative;
+   bottom: 0;
+    margin: 3em auto;
+}
+.about h1{
+    color:#FA352E ;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.about h1::after{
+    content: "";
+    background:#FA352E;
+    display: block;
+    width: 120px;
+    height: 3px;
+    margin: 10px auto;
+}
+.about img{
+    
+    border: 1px solid rgb(131, 131, 131);
+    border-radius: 5%; 
+}
+
+
+.about .about-container{
+    padding: 3em;
+    
+} 
+.about p{
+    text-align: justify;
+    line-height: 2em;
+    margin-bottom: 30px;
+}
+
+.blog-container{
+    width: 100%;
+    height: 100%;
+    background-color: #FFF6EF;
+   /* margin-bottom: 20px; */   
+   padding: 50px;
+
+}
+.blog-container h1{
+    margin-bottom: 50px;
+}
+.card-body a{
+    text-decoration: none;
+    color: black;
+    transition: 500ms;
+}
+.card-body a:hover{
+    color:#c57b78;
+}
+.Team{
+    position: relative;
+    margin: 4em 8em;
+   
+}
+.team-container h1{
+    font-weight: 400;
+    margin-bottom: 2em;
+    letter-spacing: 1px;
+}
+.team-container h3{
+    margin: 20px auto;
+}
+.team-container p{
+    text-align: justify;
+}
+.team-img img{
+    width: 100%;
+    height: 300px;
+    
+     border: 1px solid white; 
+     border-radius: 50%;
+}
+.testimonial{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 5em;
+    background-color: #FFF6EF;
+    text-align: center;
+    overflow: hidden;
+}
+.testimonial h1{
+    font-weight: 400;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+}
+.testimonial h1::after{
+    content: "";
+    background:#FA352E;
+    display: block;
+    width: 200px;
+    height: 3px;
+    margin: 10px auto;
+}
+.testimonial p{
+    line-height: 2em;
+    margin: 30px 50px;
+}
+.test-img{
+    width: 1500px;
+   
+}
+.test-img img{
+    transition: 500ms;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.test-img img:hover{
+    
+    opacity: 0.7;
+}
+
+
+>>>>>>> e1c9c176e2f02eb5671f098979c690a2a3a6c274
